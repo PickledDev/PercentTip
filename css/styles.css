@@ -198,6 +198,7 @@ a:hover {
     position: absolute;
     right: 50px;
     top: 50px;
+    width: 20%;
   }
 }
 
@@ -206,5 +207,6 @@ a:hover {
     position: absolute;
     left: 50px;
     bottom: 50px;
+    width: 20%;
   }
 }
