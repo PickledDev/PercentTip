@@ -205,8 +205,8 @@ a:hover {
 @media (max-width: 900px) {
   .bottom-cloud {
     position: absolute;
-    left: 50px;
-    bottom: 50px;
+    left: 20px;
+    bottom: 20px;
     width: 20%;
   }
 }
