@@ -1,4 +1,5 @@
 /* Common elements */
+/* These are used in about-me.html */
 
 body {
   margin: 0;
@@ -42,6 +43,11 @@ a:hover {
   color: #eaf6f6;
 }
 
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -69,12 +75,16 @@ a:hover {
   text-decoration: none;
 }
 
-/* These are found in index.html */
-/* My Logo and Header row */
+/* Logo container */
 .logo-container {
   background-color: #e4f9f5;
   position: relative;
   padding-top: 40px;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
 }
 
 .top-cloud {
@@ -89,96 +99,39 @@ a:hover {
   bottom: 100px;
 }
 
-.logo {
-  width: 20%;
-}
-
-/* Where my apps can be found */
-.apps-container {
+/* Skills container */
+.skills-container {
   background-color: #fff;
-  padding: 10px;
 }
 
-.apps-row {
-  margin: 40px 0;
-}
-
-/* help and support */
-.help-container {
-  background-color: #e4f9f5;
-  padding: 10px;
-}
-
-.help-row {
+.coding-skill-row {
   width: 50%;
   margin: 50px auto 50px auto;
   text-align: left;
 }
 
-.help-and-support-img {
+.code-img {
   width: 20%;
   float: left;
   margin-right: 30px;
 }
 
-.contact-row {
-  margin: 50px auto 50px auto;
-  background-color: #fff;
-  text-align: center;
-}
-
-/* Flaticon Row */
-.flaticon-container {
-  background-color: #fff;
-}
-
-.flaticon-use-row {
-  width: 50%;
-  margin: 50px auto 50px auto;
-  text-align: right;
-  background-color: #fff;
-}
-
-.flaticon-use-img {
-  width: 25%;
-  float: right;
-  margin-right: 30px;
-}
-
-/* Privacy Row */
-.privacy-container {
-  background-color: #e4f9f5;
-  padding: 10px;
-}
-
-.privacy-row {
+.computer-skill-row {
   width: 50%;
   margin: 50px auto 50px auto;
   text-align: left;
 }
 
-.privacy-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-/* who am i row */
-.about-me-container {
-  background-color: #fff;
-}
-
-.about-me-row {
-  width: 50%;
-  margin: 50px auto 50px auto;
-  text-align: right;
-  background-color: #fff;
-}
-
-.about-me-img {
-  width: 25%;
+.computer-img {
+  width: 20%;
   float: right;
   margin-right: 30px;
+}
+
+/* contact me container */
+.contact-me-container {
+  background-color: #e4f9f5;
+  padding: 20px;
 }
 
 /* the footer and copyright */
@@ -204,7 +157,7 @@ a:hover {
 @media (max-width: 900px) {
   .bottom-cloud {
     position: absolute;
-    left: 50px;
-    bottom: 50px;
+    left: 5px;
+    bottom: 5px;
   }
 }
